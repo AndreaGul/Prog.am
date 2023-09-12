@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-family: sans-serif;
+    color: white;
+}
+
+body {
+ background-image: url(background.jpg) ;
+ background-size: cover;
+ background-attachment: fixed;
+ padding: 2% 2%;
+}
+
+.container {
+    
+    width: 65%;
+    height: 70%;
+    
+    padding: 5% 7%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    
+    
+    z-index: 999;
+}
+
+.logo {
+    width: 200px;
+    margin: auto; 
+    margin-bottom: 5px;
+}
+
+.logo img{
+    max-width: 100%;
+}
+
+.titolo h1{
+    color: rgb(35, 230, 35);
+    margin: 5px;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.Buttons {
+    text-align: center;
+    height: 35px;
+    width: 100%;
+    background-color: rgb(35, 230, 35) ;
+    
+    
+}
+
+button {
+    margin: 10px 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-width: 1px;
+    
+    border-radius: 3px;
+    background-color: white;
+    
+    
+}
+
+.Monopattini{
+    margin-top: 20px;
+}
+
+
+
+h3 {
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.prima-riga {
+    display: inline-block;
+}
+
+
+
+.Soggetto {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.Mono1 h3{
+    margin-top: 5px;
+}
+
+
+
+.carica1{
+    height: 20px;
+    width: 40%;
+    background-color: orange;
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.Mono2 h3{
+    margin-top: 5px;
+}
+
+.carica2{
+    height: 20px;
+    width: 70%;
+    background-color: rgb(25, 231, 25);
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+.Mono3 h3{
+    margin-top: 5px;
+}
+
+.carica3{
+    height: 20px;
+    width: 20%;
+    background-color: rgb(238, 30, 30);
+    margin-bottom: 20px;
+    border-radius: 3px;
+}
+
+
+
+
+
